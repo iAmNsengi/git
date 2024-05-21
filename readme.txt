@@ -17,4 +17,8 @@ Cloning the repo to my local:
 
 3. Editing commit history
 > git rebase -i HEAD~2
+> reword 2204c12 Create Third and Fouth Files
+> pick 5ed612b chore: Create initial file
+
+4. 
 
