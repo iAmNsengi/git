@@ -120,3 +120,41 @@ Cloning the repo to my local:
   103  git history
   104  history
 
+
+ history
+    5  git stash
+    6  git stash pop
+    7  cd git
+    8  git stash
+    9  git add
+   10  git add .
+   11  git commit -m 'edited test2.md'
+   12  git stash
+   13  git stash
+   14  git stash pop
+   15  git branch
+   16  git checkout ft/branch
+   17  git add .
+   18  git commit -m 'update: edited test2.md'
+   19  git checkout main
+   20  git merge ft/branch
+   21  git rebase ft/branch
+   22  git merge ft/improved-branch-name
+   23  git rebase -i --root
+   24  git checkout ft/improved-branch-name
+   25  git merge main
+   26  git add .
+   27  git commit -m 'updated test2.md'
+   28  git checkout main
+   29  git merge ft/improved-branch-name
+   30  git mergetool
+   31  echo "/tmp" >> .gitignore
+   32  git add .gitignore
+   33  git commit -m "Add /tmp to .gitignore"
+   34  git tag v1.0
+   35  git tag
+   36  git tag -d v1.0
+   37  git push origin main
+   38  git pull origin main
+   39  history
+
